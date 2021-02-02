@@ -1,5 +1,4 @@
 /**
- * 교수님 코드
  * Solution_SWEA_1208_Flatten_D3
  * 1차워 배열로 상자의 높이를 카운팅해서 저장(메모리절약, 시간절약 가능)
  * 가장 높은 칸의 상자 -> 가장 낮은 칸으로 이동 (max, min 변수를 활용해서 시간 절약)
@@ -46,3 +45,8 @@ public class Solution {
 		System.out.print(sb);
 	} // end of main
 } // end of class
+
+/**
+ * 이차원배열로도 풀어볼 것!
+ * 
+ */
