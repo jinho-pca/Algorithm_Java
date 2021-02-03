@@ -1,9 +1,12 @@
 # Project exclude paths
 /out/
+.metadata/
+/metadata/
 
 # Java template
 *.class
 *.classpath
+.project
 
 # Package Files
 *.jar
