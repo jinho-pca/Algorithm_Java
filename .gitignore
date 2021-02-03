@@ -1,0 +1,25 @@
+# Project exclude paths
+/out/
+
+# Java template
+*.class
+*.classpath
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IntelliJ project files
+.idea
+.idea//*.xml
+*.iml
+out
+gen
+build
+rebel.xml
+
+# macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
