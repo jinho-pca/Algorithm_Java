@@ -3,6 +3,7 @@
  * 1차워 배열로 상자의 높이를 카운팅해서 저장(메모리절약, 시간절약 가능)
  * 가장 높은 칸의 상자 -> 가장 낮은 칸으로 이동 (max, min 변수를 활용해서 시간 절약)
  * 덤프 작업 반복 (덤프회수를 다 쓰기까지, 평탄화가 완료될 때까지)
+ * 
  */
 
 import java.io.BufferedReader;
@@ -14,10 +15,10 @@ public class Solution {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		for(int testCase = 1; testCase <= 10; testCase++) {
-			int n = Integer.parseInt(br.readLine()); // 덤프회수 1 <= ㅜ <= 1000
+			int n = Integer.parseInt(br.readLine()); // 덤프회수 1 <= N <= 1000
 			StringTokenizer st = new StringTokenizer(br.readLine(), " "); // 델리미터를 넣어주는 것이 더 빠르다.
 			
-			int[] cnt = new int[101]; // 상자의 높이를 카운팅할 배열, 연산수를 줄일 수 있다. 인덱스랑 층수를 맞추면 -> 인덱스 0 사용안함
+			int[] cnt = new int[101]; // 상자의 높이를 카운팅할 배열, 연산수를 줄일 수 있다. 인덱스랑 층수를 맞추면 => 인덱스 0 사용안함
 			int max = 1; // 1 <= 상자높이 <= 100
 			int min = 100;
 			int sum = 0; // 상자의 총 개수

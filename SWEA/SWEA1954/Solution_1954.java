@@ -14,22 +14,22 @@ public class Solution_1954 {
         	int top = 0;
         	int bottom = N-1;
         	while(cnt <= N*N) {
-        		// 우측방향
+        		// 우측 방향
         		for(int i = top; i <= bottom; i++) {
         			snail[left][i] = cnt++;
         		}
         		left++;
-        		// 아래방향
+        		// 아래 방향
         		for(int i = left; i <= right; i++) {
         			snail[i][bottom] = cnt++;
         		}
         		bottom--;
-        		// 좌측방향
+        		// 좌측 방향
         		for(int i = bottom; i >= top; i--) {
         			snail[right][i] = cnt++;
         		}
         		right--;
-        		// 위쪽방향
+        		// 위쪽 방향
         		for(int i = right; i >= left; i--) {
         			snail[i][top] = cnt++;
         		}

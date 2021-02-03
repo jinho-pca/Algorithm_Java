@@ -10,8 +10,6 @@ import java.util.StringTokenizer;
  * StringTokenizer
  * String.charAt()
  * StringBuilder
- * 
- * @author jinho_pca
  *
  */
 public class Solution_1210 {
