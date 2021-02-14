@@ -1,3 +1,5 @@
+package BJ16926;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -41,7 +43,7 @@ public class Main_BOJ_16926_배열돌리기1_실버4 {
 				queue.offer(arr[start][M-i-1]);
 			}
 			// 왼쪽
-			for(int start = M-i- s1; start > i; start--) {
+			for(int start = M-i-1; start > i; start--) {
 				queue.offer(arr[N-i-1][start]);
 			}
 			// 위쪽
