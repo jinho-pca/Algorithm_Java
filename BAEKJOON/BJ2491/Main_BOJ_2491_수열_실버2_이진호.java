@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_BOJ_2491_실버2_이진호 {
+public class Main_BOJ_2491_수열_실버2_이진호 {
     static int increase; // 증가최대치
 	static int decrease; // 감소최대치
 	static int tempI = 1; // 임시 증가량
