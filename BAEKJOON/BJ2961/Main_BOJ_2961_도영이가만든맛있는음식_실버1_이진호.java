@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_BOJ_2961_도영이가만든맛있는음식_실버1 {
+public class Main_BOJ_2961_도영이가만든맛있는음식_실버1_이진호 {
     private static int N;
 	private static int[] S;
 	private static int[] B;
